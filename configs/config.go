@@ -6,7 +6,7 @@ import (
 )
 
 func Initiator() {
-	viper.SetConfigFile("secret.env") 
+	viper.SetConfigFile(".env") 
 	viper.SetConfigType("env")  
 	viper.AutomaticEnv()       
 
